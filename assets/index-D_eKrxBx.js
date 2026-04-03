@@ -1850,12 +1850,12 @@ class n0 {
       .dp-label-mask  { overflow: hidden; padding: 0.1em 0; }
       .dp-label-inner { display: flex; align-items: baseline; }
 
-      /* ── Close (×) — centered, between label (80%) and bottom (100%) ── */
+      /* ── Close (×) — moved to top-right of the image ── */
       .dp-close-btn {
         position: fixed;
-        top: 90%;
-        left: 50%;
-        translate: -50% -50%;
+        top: 8%;
+        right: 8%;
+        translate: 0 0;
         width: 96px;
         height: 96px;
         display: flex;
